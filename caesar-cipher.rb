@@ -1,8 +1,5 @@
 def welcome_message 
-    puts "This is the Caesar Cipher.
-        Your message will be encrypted by shifting the letters in the alphabet by the number that you choose to shift.
-        Only a person who knows the shift number will be able to decrypt your message.
-        Enter the message you would like to encrypt:"
+    puts "This is the Caesar Cipher.\nYour message will be encrypted by shifting the letters in the alphabet by the number that you choose to shift.\nOnly a person who knows the shift number will be able to decrypt your message.\nEnter the message you would like to encrypt:"
     input_msg = gets.chomp
     return input_msg
 end
